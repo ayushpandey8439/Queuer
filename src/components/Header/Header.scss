@@ -1,0 +1,22 @@
+@import "./../../styles/colors.scss";
+@import "./../../styles/fonts.scss";
+
+.navbar {
+  background-color: $blue;
+  height: 50px;
+  display: flex;
+  color: white;
+  font-family: "Sansita Swashed", cursive;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  padding: 10px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.navbar-icons {
+  padding: 10px;
+}

@@ -1,0 +1,29 @@
+@import "./../../styles/colors.scss";
+
+.body {
+  display: flex;
+  background-color: $gray;
+  width: 100vw;
+  height: calc(100vh - 50px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.queueName {
+  width: 50vw;
+}
+
+.bodyTextMain {
+  font-family: "Sansita Swashed", cursive;
+  font-size: xx-large;
+  padding: 5px;
+}
+.bodyTextSub {
+  font-family: "Sansita Swashed", cursive;
+  font-size: large;
+  padding: 5px;
+}
+.input-button-group {
+  display: flex;
+}
